@@ -1,0 +1,63 @@
+body{
+background-color:#e3e3e3;
+font-family: san-serif;
+
+}
+.header{
+	padding-bottom: 30px;
+
+}
+.tab{
+  height: 50px;
+  background-color: black;
+  margin-top: 3%;
+}
+
+.tab a{
+  font-size: 20px;
+
+}
+
+nav li{
+	display: inline;
+	float:left;margin: left;
+  padding-top: 10px;
+
+}
+nav a{
+	text-decoration: none;
+}
+
+h1{
+	color: red;
+}
+header{
+	overflow: hidden;
+	background-color: orange;
+	position: fixed;
+}
+
+.main{
+	margin-top: 35px;
+}
+.image{
+  width: 300px;
+    height: 300px;
+}
+.imi{
+	width: 20px;
+	padding-top: 5px;
+	height: 30px;
+}
+.main container_12{
+  margin: auto;
+}
+
+
+footer{
+	overflow: hidden;
+
+padding-top: 25px;
+
+	background-color: orange;
+}
