@@ -1,123 +1,251 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html>
-  <head>
-    <meta charset="utf-8" />
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/960_12_col.css">
-        <link rel="stylesheet" href="css/text.css">
-        <link rel="stylesheet" href="css/style.css">
-    <title>hotel</title>
-  </head>
-<body>
-  <div class="wrap container_12">
-          <div class="header">
-            <header >
-                <h1 class="grid_6" >RELAX</h1>
-                  <nav class="grid_6">
-                      <ul>
-                          <li><a href="#">Home</a></li>
-                          <li><a href="#">about</a></li>
-                          <li><a href="pflio.html">Portfolio</a></li>
-                          <li><a href="#">contact</a></li>
-                          <li><a href="#">Help</a></li>
-                      </ul>
-                    </nav>
-              </header>
-      </div>
+	<head>
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title></title>
+		<meta name="description" content="">
 
-      <div class="container_12">
-          <div class="main">
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-              <div class="grid_4">
-                  <img class="image" src="img/suiteroom.jpg"/>
-                    <h3>Suite Room</h3>
-                        <span class="sub"><h4>you will feel joyful</span></h4>
-                          <p> In the suite room you will have <em>"5 star"</em> facilities. you will have free breakfast and snacks. And you will have free WiFi and you can have swimming pool
-                              and gym facilities with no cost.you can enjoy every thing in the hotel.
-                          </p>
-                          <p><a href="#" class="button">continue</a></p>
-                </div>
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
 
-                    <div class="grid_4">
-                      <img class="image" src="img/Luxuryroom.jpg"/>
-                        <h3>Luxury Room</h3>
-                            <span class="sub"><h4>you will feel happy</h4></span>
-                                <p> In the suite room you will have <em>"3 star"</em> facilities. you will have free breakfast and snacks. And you will have free WiFi and you can have swimming pool
-                                    and gym facilities with no cost.you can enjoy every thing in the hotel.
-                                </p>
-                                 <p><a href="#" class="button">continue</a></p>
-                    </div>
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
 
-                    <div class="grid_4">
-                        <img class="image" src="img/Deluxroom.jpg"/>
-                              <h3>Delux Room</h3>
-                                  <span class="sub"><h4>you will feel plesant</span></h4>
-                                  <p> In the suite room you will have <em>"2 star"</em> facilities. you will have free breakfast and snacks. And you will have free WiFi and you can have swimming pool
-                                    and gym facilities with cost.you can enjoy every thing in the hotel.
-                                  </p>
-                                  <p><a href="#" class="button">continue</a></p>
-                      </div>
-                      <div class="container_12">
-                          <div class="mp4" style="text-align:center">
-                              <h1 >My Hotel Video</h1>
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
 
-                                <video width="960" height="440" autoplay="true">
-                                    <source src="movie.mp4" type="video/mp4">
+	</head>
+	<body>
+<div class="container" id="main">
+			<div class="navbar navbar-fixed-top">
+				  <div class="container">
+							<button class="navbar-toggle" data-toggle=".navbar-responsive-collaspe" data-toggle="collapse" type="button">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						<a class="navbar-brand" href="/."> <img src="images/tt.jpg" alt="tours&travels"></a>
 
+							<div class="nav-collapse collapse Navbar-responsive-collapse">
+									<ul class="nav navbar-nav">
+										  <li class="active">
+													<a href="#" > Home</a>
+
+											</li>
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<strong class="caret"></strong></a>
+												<ul class="dropdown-menu">
+													<li>
+														<a href="#">Local Tour</a>
+													</li>
+													<li>
+														<a href="#">National Tour</a>
+													</li>
+													<li>
+														<a href="#">International Tour</a>
+													</li>
+													<li class="divider"></li>
+													<li class="dropdown-header">More Services</li>
+													<li>
+														<a href="#">Tour With Accomadation</a>
+													</li>
+													<li>
+														<a href="#">Tour Without Accomadation</a>
+													</li>
+										  </ul>
+									  </li>
+									</ul>
+									<form class="navbar-form pull-left">
+										<input type="text" class="form-control" placeholder="Search this site..." id="SearchInput">
+												<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+									</form>
+									<ul class="nav navbar-nav pull-right">
+										<li class="dropdown">
+											<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>My Account<strong class="caret"></strong></a>
+											 <ul class="dropdown-menu">
+												 <li>
+													 <a href="#"><span class="glyphicon glyphicon-wrench"></span>Settings</a>
+												 </li>
+												 <li>
+													 <a href="#"><span class="glyphicon glyphicon-refresh"></span>Update Profile</a>
+												 </li>
+												 <li>
+													 <a href="#"><span class="glyphicon glyphicon-briefcase"></span>Billing</a>
+												 </li>
+												 	 <li class="divider"></li>
+												 <li>
+
+													 <a href="#"><span class="glyphicon glyphicon-off"></span>Sign out</a>
+												 </li>
+											 </ul>
+										</li>
+								</ul><!--end nav-->
+
+					</div><!--nav collapse-->
+  		  </div><!-- end contrainer-->
+
+</div><!-- end navbar-->
+<div class="carousel slide" id="myCarousel">
+
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+<li data-slide-to="1" data-target="#myCarousel"></li>
+<li data-slide-to="2" data-target="#myCarousel"></li>
+</ol>
+
+
+<div class="carousel-inner">
+<div class="item active" id="slide1">
+	<!-- <img src="./images/Charminar.jpg" style= margin-left:20px> -->
+	<div class="carousel-caption">
+		<h4>Local Tours</h4>
+		<p>In local tours if you pay just 6000/- per person you will get free accomdation with food and having 6 Nights 5 days journey.</p>
+	</div><!-- end carousel-caption-->
 </div>
-</video>
-</div>
-<div class="container_12">
-</div>
 
-  <div><section class="grid_6">
-    <img class="ima" src="img/star.jpg"/></div>
-  </section>
-  <div class="column container_12">
-    <section>
-<div class="par">
-      <div class="grid_4">
+<div class="item" id="slide2">
+	<div class="carousel-caption">
+		<h4>National Tours</h4>
+		<p>In National Tours if you pay the 15000/- per person we will take through AC bus and free accomdation with no food.</p>
+	</div><!-- end carousel-caption-->
+</div><!-- end item -->
 
-      <p> In the suite room you will have <em>"5 star"</em> facilities. you will have free breakfast and snacks. And you will have free WiFi and you can have swimming pool
-       and gym facilities with no cost.you can enjoy every thing in the hotel.</p>
+<div class="item" id="slide3">
+	<div class="carousel-caption">
+		<h4>International Tours</h4>
+		<p>In the International Tour if you pay 50000/- per person you ll get free breakfast and accomdation and you must have passprot</p>
+	</div><!-- end carousel-caption-->
+</div><!-- end item -->
+</div><!-- carousel-inner -->
 
-       </div>
+<!-- Controls -->
+<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
 
-       <div class="grid_4">
+</div><!-- end myCarousel -->
+			<div class="row" id="bigCallout">
+					<div class="col-12">
+						<div class="well well-small visible-sm">
+								<a href="" class="btn btn-large btn-blcok btn-default"<span class="glyphicon glyphicon-phone">Give us a Call</span></a>
+						</div>
+													<div class="well">
+									<div class="page-header">
+											<h1> A Joyful Travels<small>Memorable Tours</small></h1></div>
+											<p class="lead" >If you visit NEWS Tours & Travels it will give ood memorable moments to you and your family</p>
+											<a href="" class="btn btn-primary"> click and Register the Happineas</a>
+
+									</div>
+							</div>
+
+					</div>
+
+			</div><!--end bigCallout-->
+			<div class="contianer">
+			<div class="row" id="featuresHeading">
+				<div class="col-12">
+					<h2>More Specialities of Packages</h2>
+					<p class="lead">If you have taken membership in my tours and travels we can reserve seats at any time to any place and providing free Insurance</p>
+				</div><!-- end col-12 -->
+			</div><!-- end featuresHeading -->
 
 
-      <p> In the suite room you will have <em>"3 star"</em> facilities. you will have free breakfast and snacks. And you will have free WiFi and you can have swimming pool
-       and gym facilities with no cost.you can enjoy every thing in the hotel.</p>
-       </div>
+			<div class="row" id="features">
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Luxury Room</h3>
+						</div><!-- end panel-heading -->
+						<img src="images/Luxuryroom.jpg" alt="HTML5" class="img-circle">
 
-       <div class="grid_4">
+						<p>If you get registered in the mobile app you ll get 15% discount in the international packages.</p>
 
-      <p> In the suite room you will have <em>"2 star"</em> facilities. you will have free breakfast and snacks. And you will have free WiFi and you can have swimming pool
-       and gym facilities with cost.you can enjoy every thing in the hotel.</p>
+						<a href="" target="_blank" class="btn btn-warning btn-block">Delux Room Benefits</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
 
-      </div>
-    </div>
-    </section></div>
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Delux Room</h3>
+						</div><!-- end panel-heading -->
+						<img src="images/Deluxroom.jpg" alt="CSS3" class="img-circle">
 
-</div>
+						<p>If you get registered in the mobile app you ll get 5% discount in the international packages.</p>
 
-<div class="wrap container_12">
-  <div class="footer">
-<footer >
-  <h6 class="grid_8" >  <p>copyrights @ santosh privated limited</p></h6>
-<nav class="grid_4">
-<ul>
-  <li> <img class="imi" src="img/fb.png"/></li>
-  <li><img class="imi" src="img/twitter.png"/></li>
-  <li><img class="imi" src="img/yahoo.png"/></li>
-  <li><img class="imi" src="img/gmail.jpg"/></li>
-</ul>
-</nav>
-</div>
+						<a href="#" target="_blank" class="btn btn-danger btn-block">SutieRoom SpecialsBenifits</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Suite Rooms</h3>
+						</div><!-- end panel-heading -->
+						<img src="images/suiteroom.jpg" alt="Bootstrap 3" class="img-circle">
+
+						<p>If you get registered in the mobile app you ll get 10% discount in the international packages.</p>
+
+						<a href="#" target="_blank" class="btn btn-info btn-block">Suite Room Benifits</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+			</div><!-- end features -->
+		</div>
+			<div class="row" id="moreInfo">
+			</div><!--end moreInfo-->
+			<div class="row" id="more courses">
+			</div><!--end moreCourss-->
+</div><!--end container-->
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-2">
+			<h6>Copyright &copy; 2016 {name}</h6>
+			</div><!-- end col-sm-2 -->
+
+			<div class="col-sm-4">
+				<h6>About Us</h6>
+				<p>We are the best travels in the world . we provide more benifits more advantage to the customers. we will take care of you whille trvelling in journeys.</p>
+			</div><!-- end col-sm-4 -->
+
+			<div class="col-sm-2">
+				<h6>Navigation</h6>
+				<ul class="unstyled">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Links</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div><!-- end col-sm-2 -->
+
+			<div class="col-sm-2">
+				<h6>Follow Us</h6>
+				<ul class="unstyled">
+					<li><a href="#">Twitter</a></li>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Google Plus</a></li>
+				</ul>
+			</div><!-- end col-sm-2 -->
+
+			<div class="col-sm-2">
+				<h6>Thank you <span class="glyphicon glyphicon-heart"></span> Visit Again</h6>
+			</div><!-- end col-sm-2 -->
+		</div><!-- end row -->
+	</div><!-- end container -->
 </footer>
-</div>
 
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
 
-</body>
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
 
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+	</body>
 </html>
